@@ -110,7 +110,7 @@
         const msg = document.createElement('div');
         msg.style.height = '35px';
         msg.style.lineHeight = '34px';
-        msg.style.padding = '5px 10px';
+        msg.style.padding = '5px 11px';
         msg.style.position = 'fixed';
         msg.style.top = '3.5%';
         msg.style.left = '50%';
@@ -137,8 +137,8 @@
         textarea.select();
         const result = document.execCommand('Copy');
         if (result) {
-            // console.log('已复制成功,浏览器访问！');
-            openMessage('已复制成功,浏览器访问！')
+            // console.log('已复制成功,浏览器访问 ！');
+            openMessage('已复制成功,浏览器访问 ！')
         } else {
             openMessage('亲操作失败了啊')
         }
