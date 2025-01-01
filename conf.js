@@ -2,6 +2,6 @@
 //跳转案例 pc
 var urls=[
 
-'https://15944164.com/register?key=2056945282',//
+'https://m.bg9357.com/register?key=5522760800',//
 
 ];
